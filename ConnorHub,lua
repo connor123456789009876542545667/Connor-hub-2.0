@@ -5,11 +5,6 @@ local Window = Library.CreateLib("Connor Hub", "DarkTheme")
 local Main = Window:NewTab("Main")
 local MainSection = Main:NewSection("Main")
 
-
-MainSection:NewButton("CMD-X", "ADMÄ°N", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source"))()
-end)
-
 MainSection:NewButton("Esp", "WallHack", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/espice", true))()
 end)
@@ -35,17 +30,12 @@ PlayerSection:NewSlider("Jumppower", "Jump High", 350, 50, function(s) -- 500 (M
     game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
 end)
 
-PlayerSection:NewButton("Drawing Lib Player Radar", "Radar", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/topitbopit/stuff/main/PlayerRadar/source.lua'))()
-end)
-
-
 --Games
 local Games = Window:NewTab("Games")
 local GamesSection = Games:NewSection("Games")
 
 GamesSection:NewButton("Driving Simulator", "OP Hack", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/iERa4ke4", true))()
+    loadstring(game:HttpGet("", true))()
 end)
 
 GamesSection:NewButton("Arsenal Op", "Arsenal Op", function()
@@ -53,7 +43,7 @@ GamesSection:NewButton("Arsenal Op", "Arsenal Op", function()
 end)
 
 GamesSection:NewButton("Shindo Life", "Shindo Life", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+    loadstring(game:HttpGet(''))()
 end)
 
 GamesSection:NewButton("DOORS", "DOORS", function()
@@ -65,7 +55,7 @@ GamesSection:NewButton("Build A Boat For Treasure", "Build A Boat For Treasure",
 end)
 
 GamesSection:NewButton("Jailbreak KeySystem", "Jailbreak KeySystem", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xxSirLotte/Salazar/main/SalazarHub"))()
+    loadstring(game:HttpGet(""))()
 end)
 
 GamesSection:NewButton("Murder Mystery 2", "Murder Mystery 2", function()
@@ -73,11 +63,11 @@ GamesSection:NewButton("Murder Mystery 2", "Murder Mystery 2", function()
 end)
 
 GamesSection:NewButton("Tower of Hell", "Tower of Hell", function()
-    loadstring(game:HttpGet'https://raw.githubusercontent.com/RunDTM/ZeeroxHub/main/Loader.lua')()
+    loadstring(game:HttpGet'')()
 end)
 
 GamesSection:NewButton("Pet Sim", "Pet Simulator X", function()
-    loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
 end)
 
 GamesSection:NewButton("Blox Fruits", "Blox Fruits", function()
