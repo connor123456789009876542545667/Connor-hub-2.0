@@ -67,7 +67,7 @@ GamesSection:NewButton("Tower of Hell", "Tower of Hell", function()
 end)
 
 GamesSection:NewButton("Pet Sim", "Pet Simulator X", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+    loadstring(game:HttpGet((''),true))()
 end)
 
 GamesSection:NewButton("Blox Fruits", "Blox Fruits", function()
